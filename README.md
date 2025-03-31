@@ -1,6 +1,6 @@
 # Phonebook App
 
-The Phonebook App is a mobile application designed to manage and organize your contacts efficiently. It allows users to add, edit, delete, and search for contacts with ease.
+The Phonebook App is an iOS mobile application designed to manage and organize your contacts efficiently. It allows users to add, edit, delete, and search for contacts with ease.
 
 ## Features
 
@@ -24,15 +24,19 @@ The Phonebook App is a mobile application designed to manage and organize your c
    ```bash
    npm install
    ```
-4. Run the app:
+4. Install CocoaPods dependencies:
    ```bash
-   npm start
+   cd ios && pod install && cd ..
+   ```
+5. Run the app on an iOS simulator:
+   ```bash
+   npx react-native run-ios
    ```
 
 ## Technologies Used
 
 - **Frontend**: React Native
-- **Backend**: Node.js (if applicable)
+- **Platform**: iOS
 - **Database**: SQLite or any other database used
 
 ## Contributing
@@ -53,10 +57,6 @@ Contributions are welcome! Please follow these steps:
    git push origin feature-name
    ```
 5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Contact
 
